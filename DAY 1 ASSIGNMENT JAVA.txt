@@ -1,0 +1,81 @@
+JAVA DAY 1 ASSIGNMENT
+
+1)public class Demo1 
+{
+         public static void main(String args[]) 
+        {
+                int limit = Integer.parseInt(args[0]);;
+                System.out.println("Printing Even numbers between 1 and " + limit);
+                 for(int i=1; i <= limit; i++)
+                 {
+                 if( i % 2 == 0)
+                 {
+                                System.out.print(i + " ");
+                 }
+                 }
+        }
+}
+
+OUTPUT:
+Printing Even numbers between 1 and 10
+2 4 6 8 10 
+--------------------------------------------
+2) public class Demo1 
+        {
+         public static void main(String args[]) 
+             {
+        	 int a=Integer.parseInt(args[0]);
+        	 char p=args[1].charAt(0);
+        	 int b=Integer.parseInt(args[2]);
+        	 switch(p)
+             {
+                     case '+':
+                     System.out.println("Addition of "+a+" and "+b+" : "+(a+b));
+                     break;
+
+                     case '-':
+                     System.out.println("Subtraction of "+a+" and "+b+" : "+(a-b));
+                     break;
+
+                     case '*':
+                     System.out.println("Multiplication of "+a+" and "+b+" : "+(a*b));
+                     break;
+
+                     case '/':
+                     System.out.println("Division of "+a+" and "+b+" : "+(a/b));
+                     break;
+
+                     case '%':
+                     System.out.println("Modulo of "+a+" and "+b+" : "+(a%b));
+                     break;
+                     
+                     default:
+                     System.out.println("Enter '+', '-', '*', '/' & '%' operator only.");
+             }
+     		 }
+        }
+
+
+-------------------------------------------------------------
+2)
+public class assign2 {
+	public static void main (String arg[])
+	{
+		int sum=0;
+		for (int i=0; i<arg.length; i++)
+		{
+			sum=sum+ Integer.parseInt(arg[i]);
+		}
+		System.out.println("sum is " +sum);
+		int avg=sum/arg.length;
+		System.out.println( "avg is " +avg);
+	}
+
+----------------------------------
+
+
+
+
+
+
+

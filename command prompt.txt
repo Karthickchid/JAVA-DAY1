@@ -1,0 +1,4 @@
+1)set path for java =>
+set path=C:\Program Files (x86)\Java\jdk1.6.0_45\bin
+
+2)set classpath=%.%.;
